@@ -6,13 +6,26 @@
             <ul>
                 {{#each burgers}}
                 <li>
-                    {{burger_name}}
+                    {{#unless this.devoured}}
+                    {{this.id}}. {{this.burger_name}}
+                    <button type="button" class="devour" data-id="{{id}}" data-newdevour="{{devoured}}">
+                        EAT!!
+                    </button>
+                    {{/unless}}        
                 </li>
                 {{/each}}
             </ul>
         </div>
         <div class="col-lg-6">
-
+             <ul>
+                {{#each burgers}}
+                <li>
+                    {{#if this.devoured}}
+                    {{this.id}}. {{this.burger_name}}
+                    {{/if}} 
+                </li>
+                {{/each}}
+            </ul>
         </div>
     </div>
 </div>
