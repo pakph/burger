@@ -1,4 +1,4 @@
 INSERT INTO burgers (burger_name)
-VALUES ("Big Mac")
-VALUES ("Whiskey River BBQ")
-VALUES ("Double Double")
+VALUES ("Big Mac"),
+("Whiskey River BBQ"),
+("Double Double")
