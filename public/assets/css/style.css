@@ -1,20 +1,10 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+#makeBurger {
+  width: 40%;
+  height: auto;
+  position: relative;
+  left: 30%
+}
+
+.burger-form {
+  text-align: center;
+}
